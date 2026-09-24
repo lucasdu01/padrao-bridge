@@ -1,4 +1,6 @@
 package org.lucasrocha;
 
-public class Marca {
+public interface Marca {
+
+    float valorizacao();
 }

@@ -1,4 +1,8 @@
 package org.lucasrocha;
 
-public class Apple {
+public class Apple implements Marca {
+
+    public float valorizacao() {
+        return 0.5f;
+    }
 }
